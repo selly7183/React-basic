@@ -7,7 +7,7 @@ export default function AppXY() {
 
 	const handleMove = (e) => {
 		setPosition({ x: e.clientX, y: e.clientY });
-		/* 수평을만 이동 가능하게
+		/* 수평으로만 이동 가능하게
 		setPosition((prev) => ({ x: e.clientX, y: prev.y }));
 		setPosition((prev) => ({ ...prev, x: e.clientX })); */
 	};
