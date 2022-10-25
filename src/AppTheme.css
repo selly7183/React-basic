@@ -1,0 +1,19 @@
+body {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header,
+.footer {
+	background-color: #00003a;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
+
+.main {
+	height: 100%;
+	flex: 1 1 0%;
+}
